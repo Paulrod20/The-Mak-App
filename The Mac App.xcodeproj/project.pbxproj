@@ -12,6 +12,14 @@
 		92DE2D7A2C6A93DB00EAF45F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92DE2D792C6A93DB00EAF45F /* Assets.xcassets */; };
 		92DE2D7D2C6A93DB00EAF45F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92DE2D7C2C6A93DB00EAF45F /* Preview Assets.xcassets */; };
 		92DE2D842C6A962A00EAF45F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92DE2D832C6A962A00EAF45F /* LaunchScreen.storyboard */; };
+		92E740052C6CE7E500ACE175 /* mak1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E740042C6CE7E500ACE175 /* mak1View.swift */; };
+		92E7400C2C6CEBFE00ACE175 /* ContentViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E7400B2C6CEBFE00ACE175 /* ContentViewViewModel.swift */; };
+		92E740102C6CF72900ACE175 /* mak2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E7400F2C6CF72900ACE175 /* mak2View.swift */; };
+		92E740162C6CFABB00ACE175 /* mak3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E740152C6CFABB00ACE175 /* mak3View.swift */; };
+		92E740182C6CFD1700ACE175 /* mak4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E740172C6CFD1700ACE175 /* mak4View.swift */; };
+		92E7401A2C6D03A100ACE175 /* babyMicaiahView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E740192C6D03A100ACE175 /* babyMicaiahView.swift */; };
+		92E740202C6D0AC300ACE175 /* mak5View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E7401F2C6D0AC300ACE175 /* mak5View.swift */; };
+		92E740222C6D0AD000ACE175 /* mak6View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E740212C6D0AD000ACE175 /* mak6View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +29,14 @@
 		92DE2D792C6A93DB00EAF45F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92DE2D7C2C6A93DB00EAF45F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		92DE2D832C6A962A00EAF45F /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92E740042C6CE7E500ACE175 /* mak1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mak1View.swift; sourceTree = "<group>"; };
+		92E7400B2C6CEBFE00ACE175 /* ContentViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewViewModel.swift; sourceTree = "<group>"; };
+		92E7400F2C6CF72900ACE175 /* mak2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mak2View.swift; sourceTree = "<group>"; };
+		92E740152C6CFABB00ACE175 /* mak3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mak3View.swift; sourceTree = "<group>"; };
+		92E740172C6CFD1700ACE175 /* mak4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mak4View.swift; sourceTree = "<group>"; };
+		92E740192C6D03A100ACE175 /* babyMicaiahView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = babyMicaiahView.swift; sourceTree = "<group>"; };
+		92E7401F2C6D0AC300ACE175 /* mak5View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mak5View.swift; sourceTree = "<group>"; };
+		92E740212C6D0AD000ACE175 /* mak6View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mak6View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,10 +69,9 @@
 		92DE2D742C6A93DB00EAF45F /* The Mac App */ = {
 			isa = PBXGroup;
 			children = (
-				92DE2D752C6A93DB00EAF45F /* The_Mac_AppApp.swift */,
-				92DE2D772C6A93DB00EAF45F /* ContentView.swift */,
-				92DE2D832C6A962A00EAF45F /* LaunchScreen.storyboard */,
-				92DE2D792C6A93DB00EAF45F /* Assets.xcassets */,
+				92E740072C6CE80500ACE175 /* Other */,
+				92E7400A2C6CEBDB00ACE175 /* ViewModels */,
+				92E740062C6CE7EE00ACE175 /* Views */,
 				92DE2D7B2C6A93DB00EAF45F /* Preview Content */,
 			);
 			path = "The Mac App";
@@ -68,6 +83,39 @@
 				92DE2D7C2C6A93DB00EAF45F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		92E740062C6CE7EE00ACE175 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				92DE2D772C6A93DB00EAF45F /* ContentView.swift */,
+				92E740042C6CE7E500ACE175 /* mak1View.swift */,
+				92E7400F2C6CF72900ACE175 /* mak2View.swift */,
+				92E740152C6CFABB00ACE175 /* mak3View.swift */,
+				92E740172C6CFD1700ACE175 /* mak4View.swift */,
+				92E740192C6D03A100ACE175 /* babyMicaiahView.swift */,
+				92E7401F2C6D0AC300ACE175 /* mak5View.swift */,
+				92E740212C6D0AD000ACE175 /* mak6View.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		92E740072C6CE80500ACE175 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				92DE2D752C6A93DB00EAF45F /* The_Mac_AppApp.swift */,
+				92DE2D832C6A962A00EAF45F /* LaunchScreen.storyboard */,
+				92DE2D792C6A93DB00EAF45F /* Assets.xcassets */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		92E7400A2C6CEBDB00ACE175 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				92E7400B2C6CEBFE00ACE175 /* ContentViewViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,8 +189,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92E740162C6CFABB00ACE175 /* mak3View.swift in Sources */,
+				92E740222C6D0AD000ACE175 /* mak6View.swift in Sources */,
+				92E740052C6CE7E500ACE175 /* mak1View.swift in Sources */,
 				92DE2D782C6A93DB00EAF45F /* ContentView.swift in Sources */,
+				92E740182C6CFD1700ACE175 /* mak4View.swift in Sources */,
 				92DE2D762C6A93DB00EAF45F /* The_Mac_AppApp.swift in Sources */,
+				92E7401A2C6D03A100ACE175 /* babyMicaiahView.swift in Sources */,
+				92E740202C6D0AC300ACE175 /* mak5View.swift in Sources */,
+				92E740102C6CF72900ACE175 /* mak2View.swift in Sources */,
+				92E7400C2C6CEBFE00ACE175 /* ContentViewViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
